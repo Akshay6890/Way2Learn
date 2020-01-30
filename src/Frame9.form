@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Unreal Engine "/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[350, 190, 0, 0]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1180, 723]"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Unreal Engine" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="1108" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="239" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="329" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="96" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="42" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" pref="49" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="49" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="582" max="-2" attributes="0"/>
+              <EmptySpace pref="18" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft YaHei UI Light" size="24" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="tabSize" type="int" value="6"/>
+            <Property name="text" type="java.lang.String" value="&#xa;&#xa;&#x9;The Unreal Engine is a source-available game engine developed by Epic Games, first showcased in the 1998 first-person shooter game Unreal. Although primarily developed for first-person shooters, it has been successfully used in a variety of other genres, including stealth, fighting games, MMORPGs, and other RPGs. With its code written in C++, the Unreal Engine features a high degree of portability and is a tool used by many game developers today. &#xa;&#xa;&#x9;The current release is Unreal Engine 4, designed for Microsoft Windows, macOS, Linux, SteamOS, HTML5, iOS, Android, Nintendo Switch, PlayStation 4, Xbox One, Magic Leap One, and virtual reality (SteamVR/HTC Vive, Oculus Rift, PlayStation VR, Google Daydream, OSVR and Samsung Gear VR).&#xa;&#xa;&#xa;------History-----&#xa;&#xa;&gt;&gt;Unreal Engine 1&#xa;&#xa;Development of the first generation Unreal Engine was carried out by the founder of Epic Games, Tim Sweeney. Inspired by &quot;John Carmack&apos;s pioneering programming work on Doom and Quake&quot;,Sweeney started the engine in 1995 for the production of a game that would later become known as Unreal, a first-person shooter set in a medieval world with alien elements. After years in development, it debuted with the game&apos;s release in 1998, although licensees such as MicroProse and Legend Entertainment had possessed the technology much earlier, with the first licensing deal taking place in 1996.&#xa;&#xa;&#x9;Both software and hardware rendering were present in the foundational software, as well as collision detection, colored lighting, and a rudimentary version of texture filtering. The engine also provided a level editor, UnrealEd (formerly Unreal World Editor[10]), that had support for real-time constructive solid geometry operations as early as 1996, allowing mappers to change the level layout &quot;on the fly&quot;. Other features implemented during the engine&apos;s development included real-time direct illumination and light sourcing, which were respectively integrated in 1995 and 1997. In addition to having support for Microsoft Windows, Linux and Mac,[16] Unreal Tournament also opened the platform to PlayStation 2 and, with the help of Secret Level, to Dreamcast. In 2000, Epic updated the engine with new improvements, including higher-polygon models and architecture, a skeletal animation system and large-scale terrain support.&#xa;&#xa;&#x9;By late 1999, The New York Times indicated that the number of external projects using Epic&apos;s technology was 16, naming the likes of Deus Ex, Nerf Arena Blast and Duke Nukem Forever,the title from 3D Realms that was set to debut the series on the GameCube console. While it cost around $3 million to produce and licenses for up to $350,000, Epic gave modders the ability to create their own worlds with the incorporation of UnrealEd and a scripting language called UnrealScript in its games, sparking a community of enthusiasts around a game engine that was built to be extensible and improved over multiple generations of games.&#xa;&#xa;&gt;&gt;Unreal Engine 2&#xa;&#xa;&#x9;The second version made its debut in 2002 with America&apos;s Army, a free multiplayer shooter developed by the U.S. Army as a recruitment tool. Though based on previous technology, this generation saw the renderer completely re-written, and the inclusion of a variety of features such as the Matinee cinematic editing tool, export plug-ins for 3D Studio Max and Maya, and the Karma physics engine, a tool by Math Engine that powered the ragdoll physics in Unreal Tournament 2003. In addition, it featured UnrealEd 2, which debuted with the previous generation of the engine and was shortly followed later by UnrealEd 3. Other engine elements were also updated, with improved assets as well as adding support for the Xbox. &#xa;&#xa;&#x9;UE2.5, an update to the original version of UE2, improved rendering performance and added vehicles physics, a particle system editor for UnrealEd, and 64-bit support in Unreal Tournament 2004. A specialized version of UE2 called UE2X was used for Unreal Championship 2: The Liandri Conflict on the original Xbox platform, featuring optimizations specific to that console. &#xa;&#xa;&#x9;In March 2011, Ubisoft Montreal revealed that UE2 was successfully running on the Nintendo 3DS.&#xa;&#xa;&gt;&gt;Unreal Engine 3&#xa;&#xa;&#x9;Screenshots of Unreal Engine 3 were presented in 2004, at which point the engine had already been in development for over 18 months. Unlike Unreal Engine 2, which still supported fixed-function pipeline, Unreal Engine 3 was designed to take advantage of fully programmable shader hardware. All lighting calculations were done per-pixel, instead of per-vertex. On the rendering side, Unreal Engine 3 provided support for a gamma-correct high-dynamic range renderer.&#xa;&#xa;&#x9;Initially, Unreal Engine 3 only supported Windows, PlayStation 3, and Xbox 360 platforms, while iOS (first demonstrated with Epic Citadel) and Android were added later in 2010, with Infinity Blade being the first iOS title and Dungeon Defenders the first Android title. OS X support was added in 2011. The same year it was announced that the engine would support Adobe Flash Player 11 through the Stage 3D hardware-accelerated APIs and that it was being used in two Wii U games, Batman: Arkham City and Aliens: Colonial Marines. Windows 8 and Windows RT support was added in 2012. In 2013, Epic teamed-up with Mozilla to bring Unreal Engine 3 to HTML5. Using the asm.js sublanguage and Emscripten compiler, they were able to port the engine to JavaScript and WebGL in four days.&#xa;&#xa;&#x9;Throughout the lifetime of UE3, significant updates have been incorporated, including improved destructible environments, soft body dynamics, large crowd simulation, iPod Touch functionality, Steamworks integration, a real-time global illumination solution, and stereoscopic 3D on Xbox 360 via TriOviz for Games Technology. DirectX 11 support was demonstrated with the Samaritan demo, which was unveiled at the 2011 Game Developers Conference and built by Epic Games in a close partnership with NVIDIA, with engineers working around the country to push real-time graphics to a new high point.&#xa;&#xa;---Unreal Development Kit---&#xa;&#x9;&#xa;&#x9;While Unreal Engine 3 has been quite open for modders to work with, the ability to publish and sell games made using UE3 was restricted to licensees of the engine. However, in November 2009, Epic released a free version of UE3&apos;s SDK, called the Unreal Development Kit (UDK), that is available to the general public.&#xa;&#xa;&#x9;In December 2010, it was updated to include support for creating iOS games and apps.&#xa;&#xa;&gt;&gt;Unreal Engine 4&#xa;&#xa;&#x9;In August 2005, Mark Rein, the vice-president of Epic Games, revealed that Unreal Engine 4 had been in development since 2003. Until 2008, development was &quot;basically&quot; done by Sweeney. The engine targets the eighth generation of consoles, PCs and Tegra K1-based devices running Android announced in January 2014 at CES. &#xa;&#xa;&#x9;In February 2012, Rein said &quot;people are going to be shocked later this year when they see Unreal Engine 4&quot;. Unreal Engine 4 was unveiled to limited attendees at the 2012 Game Developers Conference, and video of the engine being demonstrated by technical artist Alan &quot;Talisman&quot; Willard was released to the public in June 7, 2012 via GameTrailers TV.&#xa;&#xa;&#x9;One of the major features planned for UE4 was real-time global illumination using voxel cone tracing, eliminating pre-computed lighting. However, this feature has been replaced with a similar but less computationally-expensive algorithm prior to release for all platforms including the PC due to performance concerns. UE4 also includes new developer features to reduce iteration time, and allows updating of C++ code while the engine is running. The new &quot;Blueprint&quot; visual scripting system (a successor to UE3&apos;s &quot;Kismet&quot;) allows for rapid development of game logic without using C++, and includes live debugging. The result is reduced iteration time, and less of a divide between technical artists, designers, and programmers.&#xa;&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HOME"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Unreal Engine"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
